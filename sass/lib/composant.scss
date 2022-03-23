@@ -1,0 +1,78 @@
+$primaire: #9356dc;
+$secondaire: #ff79da;
+$tertiaire: #99e2d0;
+
+$bgcolor: rgb(246, 246, 246);
+
+h1 {
+  font-family: "Shrikhand", sans-serif;
+}
+a {
+  color: black;
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 50px;
+
+  background: linear-gradient($secondaire, $primaire);
+  box-shadow: 0 0 5px 0 rgb(201, 190, 190);
+  border-radius: 30px;
+
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+
+  transition: 0.2s;
+
+  &:hover {
+    background: linear-gradient(#f896dc, #a070db);
+    box-shadow: 5px 5px 5px 0 rgb(201, 190, 190);
+  }
+}
+
+.heart-full {
+  transition: 0.25s;
+  color: transparent;
+
+  &:hover {
+    color: $tertiaire;
+  }
+}
+
+.btn-heart {
+  position: relative;
+
+  .heart {
+    width: 30px;
+    stroke-width: 20;
+  }
+
+  .heartfull {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    path {
+      fill: url(#Gradient-1);
+      stroke: url(#Gradient-1);
+    }
+  }
+
+  .heartnull {
+    path {
+      fill: white;
+      stroke: black;
+      transition: all 0.25s ease-out;
+    }
+
+    &:hover path {
+      fill: transparent;
+      stroke: transparent;
+    }
+  }
+}

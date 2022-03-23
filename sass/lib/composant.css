@@ -1,0 +1,82 @@
+h1 {
+  font-family: "Shrikhand", sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.call-to-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 220px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(#ff79da, #9356dc);
+  -webkit-box-shadow: 0 0 5px 0 #c9bebe;
+          box-shadow: 0 0 5px 0 #c9bebe;
+  border-radius: 30px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.call-to-action:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f896dc), to(#a070db));
+  background: linear-gradient(#f896dc, #a070db);
+  -webkit-box-shadow: 5px 5px 5px 0 #c9bebe;
+          box-shadow: 5px 5px 5px 0 #c9bebe;
+}
+
+.heart-full {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: transparent;
+}
+
+.heart-full:hover {
+  color: #99e2d0;
+}
+
+.btn-heart {
+  position: relative;
+}
+
+.btn-heart .heart {
+  width: 30px;
+  stroke-width: 20;
+}
+
+.btn-heart .heartfull {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.btn-heart .heartfull path {
+  fill: url(#Gradient-1);
+  stroke: url(#Gradient-1);
+}
+
+.btn-heart .heartnull path {
+  fill: white;
+  stroke: black;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+.btn-heart .heartnull:hover path {
+  fill: transparent;
+  stroke: transparent;
+}
+/*# sourceMappingURL=composant.css.map */
