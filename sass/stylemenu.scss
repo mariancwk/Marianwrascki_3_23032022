@@ -163,7 +163,8 @@ header {
       }
     }
     &:hover .fa-check-circle {
-      transform: rotate(0deg);
+      transform: rotate(-360deg);
+      transition: all $tpsanim ease-out;
     }
     h3 {
       font-weight: 700;
@@ -227,6 +228,12 @@ header {
       font-weight: 700;
     }
   }
+  .fa-check-circle {
+    font-size: 22px;
+    color: white;
+    transform: rotate(0deg);
+  }
+
   .bloc-check {
     position: absolute;
     display: flex;
@@ -239,13 +246,6 @@ header {
     background-color: $tertiaire;
 
     transition: all $tpsanim ease-out;
-
-    .fa-check-circle {
-      font-size: 22px;
-      color: white;
-      transform: rotate(90deg);
-      transition: all $tpsanim ease-out;
-    }
   }
 
   .call-to-action {
