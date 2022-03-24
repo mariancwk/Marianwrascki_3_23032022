@@ -200,8 +200,9 @@ header h1 {
   margin-right: 15px;
 }
 
-.localisation h3 {
+.localisation span {
   font-size: 16px;
+  font-weight: 700;
 }
 
 .explorer {
@@ -567,8 +568,9 @@ header h1 {
           box-shadow: 0 0 5px 0 #c9bebe;
 }
 
-.restaurants .carte-txt h4 {
+.restaurants .carte-txt h3 {
   font-size: 1.2em;
+  font-weight: 700;
   margin-bottom: 5px;
 }
 

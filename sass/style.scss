@@ -1,5 +1,5 @@
-@import "sass/lib/reset.scss";
-@import "sass/lib/composant.scss";
+@import "lib/reset.scss";
+@import "lib/composant.scss";
 
 //variable :
 // padding left & right > 1258px
@@ -83,8 +83,9 @@ header {
   i {
     margin-right: 15px;
   }
-  h3 {
+  span {
     font-size: 16px;
+    font-weight: 700;
   }
 }
 
@@ -348,8 +349,9 @@ header {
     border-radius: 0 0 20px 20px;
     box-shadow: 0 0 5px 0 rgb(201, 190, 190);
 
-    h4 {
+    h3 {
       font-size: 1.2em;
+      font-weight: 700;
       margin-bottom: 5px;
     }
   }

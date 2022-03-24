@@ -218,7 +218,7 @@ header h1 {
   }
 }
 
-.section-plats .container-plats h3 {
+.section-plats .container-plats h2 {
   position: relative;
   margin-bottom: 26px;
   font-weight: 400;
@@ -226,7 +226,7 @@ header h1 {
   text-transform: uppercase;
 }
 
-.section-plats .container-plats h3::after {
+.section-plats .container-plats h2::after {
   content: "";
   position: absolute;
   top: 25px;
@@ -321,8 +321,12 @@ header h1 {
           transform: rotate(0deg);
 }
 
+.section-plats .cartes-plat h3 {
+  font-weight: 700;
+}
+
 .section-plats .cartes-plat p,
-.section-plats .cartes-plat h4 {
+.section-plats .cartes-plat h3 {
   font-size: 1.05em;
   overflow: hidden;
   white-space: nowrap;
@@ -394,10 +398,11 @@ header h1 {
   height: 100%;
 }
 
-.section-plats .cartes-plat--right h5 {
+.section-plats .cartes-plat--right h4 {
   font-size: 15px;
   -webkit-transform: translateY(44%);
           transform: translateY(44%);
+  font-weight: 700;
 }
 
 .section-plats .bloc-check {

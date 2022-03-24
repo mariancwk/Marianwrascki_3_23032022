@@ -1,5 +1,5 @@
-@import "sass/lib/reset.scss";
-@import "sass/lib/composant.scss";
+@import "lib/reset.scss";
+@import "lib/composant.scss";
 
 $padding1258px: clamp(70px, 14vw, 280px);
 $tpsanim: 0.4s;
@@ -91,7 +91,7 @@ header {
       align-items: center;
     }
 
-    h3 {
+    h2 {
       position: relative;
       margin-bottom: 26px;
 
@@ -163,9 +163,11 @@ header {
     &:hover .fa-check-circle {
       transform: rotate(0deg);
     }
-
+    h3 {
+      font-weight: 700;
+    }
     p,
-    h4 {
+    h3 {
       font-size: 1.05em;
       // permet de créer les petits points si pas bloc pas assez large
       overflow: hidden;
@@ -217,9 +219,10 @@ header {
     align-items: center;
     height: 100%;
 
-    h5 {
+    h4 {
       font-size: 15px;
       transform: translateY(44%);
+      font-weight: 700;
     }
   }
   .bloc-check {
