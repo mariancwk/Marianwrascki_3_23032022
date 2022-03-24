@@ -274,12 +274,12 @@ header h1 {
   padding-right: clamp(70px, 14vw, 280px);
 }
 
-@media screen and (max-width: 1258px) {
+@media screen and (max-width: 1260px) {
   .fonctionnement {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    height: 280px;
+    height: 340px;
     margin: 50px 0;
   }
 }
@@ -310,7 +310,7 @@ header h1 {
   gap: 20px;
 }
 
-@media screen and (max-width: 1115px) {
+@media screen and (max-width: 1260px) {
   .fonctionnement .tuto {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -357,9 +357,9 @@ header h1 {
   }
 }
 
-@media screen and (max-width: 1258px) {
+@media screen and (max-width: 1260px) {
   .fonctionnement .tuto-carte {
-    width: 52%;
+    width: 87%;
   }
 }
 
@@ -367,24 +367,6 @@ header h1 {
   .fonctionnement .tuto-carte {
     width: 94%;
     min-width: 246px;
-  }
-}
-
-@media screen and (max-width: 1258px) {
-  .fonctionnement .tuto-carte-resp-1 {
-    position: absolute;
-    top: 0;
-    left: 3%;
-  }
-  .fonctionnement .tuto-carte-resp-2 {
-    position: absolute;
-    top: 81px;
-    left: 25%;
-  }
-  .fonctionnement .tuto-carte-resp-3 {
-    position: absolute;
-    top: 155px;
-    left: 46%;
   }
 }
 

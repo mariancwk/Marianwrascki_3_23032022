@@ -136,11 +136,12 @@ header {
   padding-left: $padding1258px;
   padding-right: $padding1258px;
 
-  @media screen and (max-width: 1258px) {
+  @media screen and (max-width: 1260px) {
     justify-content: flex-start;
-    height: 280px;
+    height: 340px;
     margin: 50px 0;
   }
+
   @media screen and (max-width: 768px) {
     padding: 30px 70px 0;
     height: 328px;
@@ -157,7 +158,7 @@ header {
     width: 100%;
     gap: 20px;
 
-    @media screen and (max-width: 1115px) {
+    @media screen and (max-width: 1260px) {
       flex-direction: column;
       align-items: center;
     }
@@ -190,8 +191,8 @@ header {
       }
     }
 
-    @media screen and (max-width: 1258px) {
-      width: 52%;
+    @media screen and (max-width: 1260px) {
+      width: 87%;
     }
     @media screen and (max-width: 768px) {
       width: 94%;
@@ -199,23 +200,6 @@ header {
     }
   }
 
-  @media screen and (max-width: 1258px) {
-    .tuto-carte-resp-1 {
-      position: absolute;
-      top: 0;
-      left: 3%;
-    }
-    .tuto-carte-resp-2 {
-      position: absolute;
-      top: 81px;
-      left: 25%;
-    }
-    .tuto-carte-resp-3 {
-      position: absolute;
-      top: 155px;
-      left: 46%;
-    }
-  }
   @media screen and (max-width: 768px) {
     .tuto-carte-resp-1,
     .tuto-carte-resp-2,
