@@ -60,6 +60,7 @@ a {
 
 .btn-heart {
   position: relative;
+  cursor: pointer;
 }
 
 .btn-heart .heart {
@@ -258,6 +259,7 @@ header h1 {
   -webkit-box-shadow: 0 0 15px 0 #c9bebe;
           box-shadow: 0 0 15px 0 #c9bebe;
   visibility: hidden;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1210px) {

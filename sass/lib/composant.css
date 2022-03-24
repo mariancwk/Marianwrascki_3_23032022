@@ -49,6 +49,7 @@ a {
 
 .btn-heart {
   position: relative;
+  cursor: pointer;
 }
 
 .btn-heart .heart {

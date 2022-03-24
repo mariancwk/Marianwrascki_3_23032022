@@ -129,6 +129,8 @@ header {
     box-shadow: 0 0 15px 0 rgb(201, 190, 190);
     visibility: hidden;
 
+    cursor: pointer;
+
     @media screen and (max-width: 1210px) {
       width: 570px;
     }
