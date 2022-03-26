@@ -48,16 +48,6 @@ a {
           box-shadow: 5px 5px 5px 0 #c9bebe;
 }
 
-.heart-full {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-  color: transparent;
-}
-
-.heart-full:hover {
-  color: #99e2d0;
-}
-
 .btn-heart {
   position: relative;
   cursor: pointer;

@@ -83,6 +83,18 @@ header {
   i {
     margin-right: 15px;
   }
+  input {
+    width: 125px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    outline: none;
+
+    &::placeholder {
+      color: black;
+    }
+  }
   span {
     font-size: 16px;
     font-weight: 700;

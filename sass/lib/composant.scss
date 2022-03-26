@@ -34,15 +34,6 @@ a {
   }
 }
 
-.heart-full {
-  transition: 0.25s;
-  color: transparent;
-
-  &:hover {
-    color: $tertiaire;
-  }
-}
-
 .btn-heart {
   position: relative;
   cursor: pointer;
