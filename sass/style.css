@@ -356,6 +356,9 @@ header h1 {
   -webkit-box-shadow: 5px 3px 5px #e2dede;
           box-shadow: 5px 3px 5px #e2dede;
   border-radius: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .fonctionnement .tuto-carte i {
@@ -384,6 +387,16 @@ header h1 {
     width: 94%;
     min-width: 246px;
   }
+}
+
+.fonctionnement .tuto-carte:hover {
+  background-color: #f5edff;
+}
+
+.fonctionnement .tuto-carte:hover .fa-store,
+.fonctionnement .tuto-carte:hover .fa-list-ul,
+.fonctionnement .tuto-carte:hover .fa-mobile-alt {
+  color: #9356dc !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -425,7 +438,11 @@ header h1 {
 
 .fa-store {
   font-size: 17px;
-  color: #9356dc !important;
+}
+
+.fas {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .restaurants {

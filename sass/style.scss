@@ -191,6 +191,9 @@ header {
     box-shadow: 5px 3px 5px rgb(226, 222, 222);
     border-radius: 20px;
 
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
     i {
       color: grey;
       margin: 0 30px 0 10px;
@@ -209,6 +212,15 @@ header {
     @media screen and (max-width: 768px) {
       width: 94%;
       min-width: 246px;
+    }
+
+    &:hover {
+      background-color: rgb(245, 237, 255);
+    }
+    &:hover .fa-store,
+    &:hover .fa-list-ul,
+    &:hover .fa-mobile-alt {
+      color: $primaire !important;
     }
   }
 
@@ -245,7 +257,9 @@ header {
 }
 .fa-store {
   font-size: 17px;
-  color: $primaire !important;
+}
+.fas {
+  transition: all 0.2s ease-in-out;
 }
 
 .restaurants {
